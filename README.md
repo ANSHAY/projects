@@ -44,7 +44,7 @@ Designed a speech recognition system using HMMs that can recognize digits from 0
 Designed a system that prevents collision of vehicles by monitoring other vehicles on road relative to the user’s vehicle with the help of multiple sensors mounted on the vehicle.
 
 ## Thermal Video Stabilization
-To efficiently estimate and correct motion in a thermal video using Harris Corner detector and Lucas Canade Method.
+To efficiently estimate and correct motion in a thermal video using Harris Corner detector and Lucas-Kanade method.
 
 ## Biometric door locking and unlocking system
 Designed a system to lock and unlock using finger print scanner and microcontroller with the facility of multiple finger print recognitions.
@@ -61,6 +61,4 @@ Analyzed the behavior of an air horn and its contribution in improving the perfo
 ## Quadrature Amplitude Multiplexer
 Designed a circuit to successfully transmit and receive two message signals by using Quadrature Amplitude Multiplexing. The circuit was constructed on TI Analog Design kit.
 
-###### *Part of coursework at deeplearning.ai specialization at Coursera
-
-GitHub: https://github.com/ANSHAY/Deep-Learning
+###### *Part of coursework at deeplearning.ai specialization at [Coursera](www.coursera.org)
