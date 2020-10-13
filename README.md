@@ -8,6 +8,15 @@ I designed and coded the simulation program in pygame which displays Right and L
 The subjects were asked to think about moving their left or right hand based on the arrow on the screen. The EEG was recorded during these tasks, which was then filtered and processed and trained upon to build a model
 
 ## Deep Learning
+#### Reinforcement learning
+Built a Deep-reinforcement learning system that learns to play the catapult game using OpenAI gym and deep neural Network
+
+#### GAN (Generative Adversarial Network)
+A GAN that generates images learned over mnist and fashion_mnist dataset
+
+#### Music Generation
+A neural network that can generate music on its own using LSTM. Built 2 models, one that generates music in abc format and other that generates in wav format
+
 #### Anime vs real
 A neural network that can classify real photographs and drawn images
 
