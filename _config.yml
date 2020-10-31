@@ -43,7 +43,7 @@ aux_links_new_tab: false
 heading_anchors: false
 
 # Color scheme supports "light" (default) and "dark"
-color_scheme: dark
+color_scheme: light
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
