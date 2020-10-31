@@ -1,3 +1,8 @@
+---
+layout: default
+title: Others
+nav_order: 5
+---
 ## Open3D
 An Api for Open3D which returns a list of identically colored connected components grouped together based on their color in a mesh of connected vertices.
 

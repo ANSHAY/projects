@@ -1,3 +1,11 @@
+---
+layout: default
+title: 404
+nav_exclude: true
+---
+# My Projects
+
+
 # Brain Computer Interfacing (BCI)
 ## Motor Imagery based classification of EEG data
 Executed a project on Brain Computer Interfacing (BCI) at IIT Delhi in which the EEG signal recorded from the scalp of a subject was acquired and processed using signal processing, machine learning and other techniques to control a virtual scenario (moving a ball in a scene in this case) based on the motor Imagery data from a subject.

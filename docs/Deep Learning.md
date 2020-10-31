@@ -1,3 +1,8 @@
+---
+layout: default
+title: Deep Learning
+nav_order: 4
+---
 ## Reinforcement learning
 Built a Deep-reinforcement learning system that learns to play the catapult game using OpenAI gym and deep neural Network
 
