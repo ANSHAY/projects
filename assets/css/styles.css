@@ -1,22 +1,83 @@
 body{
-    background-color: rgb(236, 234, 227);
+  background-color: #f1f1f1;
 }
-.content{
-    padding: 1% 5%;
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 20%;
+  max-width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
-.content .column{
-    text-align: justify;
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 20%;
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 1%;
+  float: left;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 48%;
+  padding: 0 1%;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  padding: 2%;
+  text-align: justify;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
     display: block;
-    float: left;
-    padding: 1%;
-    width: 45%;
+    margin-bottom: 20px;
+  }
 }
-h2, h3, h4, h5, h6{
-    text-align: left;
-}
-h4{
-    font-style: italic;
-}
-.heading{
-    text-align: center;
+
+@media screen and (min-width: 1000px) {
+  .main{
+    margin-left: 200px;
+  }
 }
