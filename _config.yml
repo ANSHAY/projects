@@ -54,4 +54,4 @@ ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (t
 back_to_top: true
 back_to_top_text: "Back to top"
 
-theme: jekyll-theme-minimal
+theme: just-the-docs
